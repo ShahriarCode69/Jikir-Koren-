@@ -3,38 +3,12 @@
 html {
   scroll-behavior: smooth;
 }
-.hind-siliguri-light {
-  font-family: "Hind Siliguri", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.hind-siliguri-regular {
-  font-family: "Hind Siliguri", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.hind-siliguri-medium {
-  font-family: "Hind Siliguri", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.hind-siliguri-semibold {
-  font-family: "Hind Siliguri", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.hind-siliguri-bold {
-  font-family: "Hind Siliguri", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
 
 body {
   font-family: "Hind Siliguri", sans-serif; 
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Ripple effect */
@@ -89,15 +63,15 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 90vh;
 }
 
 
 .hero__title {
   font-size: 5rem;
   font-weight: 900;
-  line-height: 1.1;
+  line-height: 1;
   text-align: center;
-  margin-top: 15rem;
 }
 
 .hero__description {
@@ -105,6 +79,8 @@ body {
   text-align: center;
   margin-inline: auto;
   font-size: 1.5rem;
+  line-height: 1.2;
+  margin-top: 1rem;
 }
 
 .strong {
