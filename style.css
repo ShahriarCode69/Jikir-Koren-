@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+.hind-siliguri-light {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.hind-siliguri-regular {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hind-siliguri-medium {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.hind-siliguri-semibold {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hind-siliguri-bold {
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Hind Siliguri", sans-serif; 
+}
+
+/* Ripple effect */
+.ripple1 {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple1:hover {
+  background: #e11d48 radial-gradient(circle, transparent 1%, #e11d48 1%) center/15000%;
+}
+.ripple1:active {
+  background-color: #ff466e;
+  background-size: 100%;
+  transition: background 0s;
+}
+.ripple2 {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple2:hover {
+  background: #d97706 radial-gradient(circle, transparent 1%, #d97706 1%) center/15000%;
+}
+.ripple2:active {
+  background-color: #f7b74a;
+  background-size: 100%;
+  transition: background 0s;
+}
+.ripple3 {
+  background-position: center;
+  transition: background 0.8s;
+}
+.ripple3:hover {
+  background: #16a34a radial-gradient(circle, transparent 1%, #16a34a 1%) center/15000%;
+}
+.ripple3:active {
+  background-color: #2cc564;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+.totalDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.hero__title {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1.1;
+  text-align: center;
+  margin-top: 15rem;
+}
+
+.hero__description {
+  max-width: 60ch;
+  text-align: center;
+  margin-inline: auto;
+  font-size: 1.5rem;
+}
+
+.strong {
+  color: #facc15;
+}
+
+.startBtn {
+  margin-top: 3rem;
+}
